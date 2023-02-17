@@ -9,7 +9,9 @@
               --color-border-card: #E7E9FC;
             }
 
-            
+  header {
+    border-bottom: 1px solid var(--color-border-card);
+  }          
 body {
              font-family: 'Roboto', sans-serif; 
              background-color: var(--main-bg-color);  
@@ -52,8 +54,9 @@ ul {
 .container-main-nav {
         display: flex;
         justify-content: space-between;
-        border-bottom: 1px solid var(--color-border-card);
-        
+        align-items: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .main-navigation {
@@ -71,10 +74,6 @@ ul {
               text-transform: uppercase;
               color: var(--main-color-hover); 
               text-decoration: none;
-              flex-direction: row;
-              align-items: flex-start;
-              padding-top: 24px;
-              padding-bottom: 24px;
               margin-right: 76px;
               
         
@@ -102,6 +101,7 @@ ul {
               text-decoration: none;
               padding-top: 24px;
               padding-bottom: 24px; 
+              display: block;
 
    
 }
@@ -150,7 +150,7 @@ ul {
              
              background: var(--main-title-color);
              text-align: center; 
-             padding-top: 120px;
+             padding-top: 188px;
              padding-bottom: 120px;
              
                   
@@ -181,9 +181,6 @@ ul {
               letter-spacing: 0.04em;
               color: var(--main-bg-color);
               cursor: pointer;
-              display: inline-flex;
-              flex-direction: row;
-              align-items: center;
               border: none;      
               padding: 16px 32px;
              
@@ -198,7 +195,7 @@ ul {
 /* SECTION Feature */
 .feature {
    padding-top: 120px;
-   padding-bottom: 120px;
+   
 }
 
 .feature-list {
@@ -215,7 +212,7 @@ ul {
 }
 .container-list-item {
   
-  flex-basis: calc((100%  - 3*24px) / 4);
+  flex-basis: calc((100%  - 3 * 24px) / 4);
   
 
 }
@@ -392,7 +389,7 @@ ul {
  
   .container-portfolio-item {
           
-          flex-basis: calc((100% - 2*24) / 3);
+          flex-basis: calc((100% - 2 * 24px) / 3);
          
  }
 .header-portfolio-cards  {
