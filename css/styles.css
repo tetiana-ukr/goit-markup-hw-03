@@ -55,8 +55,7 @@ ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-top: 24px;
-        padding-bottom: 24px;
+       
 }
 
 .main-navigation {
@@ -151,7 +150,7 @@ ul {
              background: var(--main-title-color);
              text-align: center; 
              padding-top: 188px;
-             padding-bottom: 120px;
+             padding-bottom: 188px;
              
                   
 }
@@ -233,7 +232,6 @@ ul {
 .container-works-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   gap: 24px;
  
   
@@ -272,8 +270,7 @@ ul {
 .list-team {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 24px;
+   gap: 24px;
 }
 
 
